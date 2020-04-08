@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/fragment_main">
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/bt_passing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data passing" />
+
+    <Button
+        android:id="@+id/bt_communication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Communication" />
+
+</LinearLayout>
